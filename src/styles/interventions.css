@@ -1,0 +1,22 @@
+.interventions {
+    border: solid 3px red;
+    position: relative;
+    width: 100%;
+    h2 {
+        position: absolute;
+        width: 100%;
+        font-size: 5rem;
+        text-align: center;
+        color: #D4A968; font-family: "Inter";
+        font-weight: bold;
+    }
+}
+.prestations_list { display: flex; width: 100%;}
+.prestation_item {
+    border: solid 1px;
+    h3 {font-family: 'Manjari', sans-serif; text-align: center;}
+}
+.prestation_img{
+    width: 170px;
+    height: 170px;
+}
