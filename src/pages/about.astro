@@ -1,8 +1,10 @@
 ---
-import '../styles/global.css';
+import BaseLayout from "../layouts/BaseLayout.astro";
 import Header from '../components/Header.astro';
 const pageTitle = "About Me";
-
+const happy = true;
+const finished = true;
+const goal = 3;
 const identity = {
   firstName: "Sarah",
   country: "Canada",
@@ -10,9 +12,6 @@ const identity = {
   hobbies: ["photography", "birdwatching", "baseball"],
 };
 const skills = ["HTML", "CSS", "JavaScript", "React", "Astro", "Writing Docs"];
-const happy = true;
-const finished = false;
-const goal = 3;
 const skillColor = "navy";
 const fontWeight = "bold";
 const textCase = "uppercase";
