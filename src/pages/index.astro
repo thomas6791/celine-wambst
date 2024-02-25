@@ -1,30 +1,12 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Greeting from '../components/Greeting';
-import Contact from '../components/Contact.astro';
+import FeedbackForm from '../components/FeedbackForm.astro';
 const title = "Celine Wambst | Insectisation";
 ---
 <BaseLayout title={title}>
   <h2>My awesome blog subtitle</h2>
   <Greeting client:load messages={["Hej", "Hallo", "Hola", "Habari"]} />
+<FeedbackForm />
 
-  <form name="contact" method="POST" data-netlify="true" class="flow">
-    <div>
-        <label for="nom">Nom&nbsp;:</label>
-        <input type="text" id="nom" name="nom" autofocus/>
-    </div>
-    <div>
-        <label for="sujet">Sujet&nbsp;:</label>
-        <input type="text" id="sujet" name="sujet"/>
-    </div>
-    <div>
-        <label for="email">Courriel&nbsp;:</label>
-        <input type="email" id="email" name="email"/>
-    </div>
-    <div>
-        <label for="message">Message&nbsp;:</label>
-        <textarea name="message" id="message" rows="5"></textarea>
-    </div>
-    <button class="btn btn-primary" type="submit">Envoyer</button>
-</form>
 </BaseLayout>
