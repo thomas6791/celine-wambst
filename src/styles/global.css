@@ -8,6 +8,7 @@ html {
     width: 100%;
     //max-width: 100ch;
     padding: 1rem;
+    padding-top: 0;
     line-height: 1.5;
   }
   

@@ -1,3 +1,11 @@
-.navigation {
-    border: solid 1px;
+.nav-big {
+    background-color: white;
+    .navigation {
+        border: solid 1px;
+        a {
+            text-decoration: none;
+            color: black;
+            &:hover {text-decoration: underline;}
+        }
+    }
 }
