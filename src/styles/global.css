@@ -1,5 +1,5 @@
 html {
-    background-color: #f1f5f9;
+
     font-family: sans-serif;
   }
   
@@ -75,6 +75,25 @@ html.dark {
 
 .dark .nav-links a {
   color: #fff;
+}
+
+.index_titre {
+  font-size: 6rem;
+  margin: 0;
+  padding: 0;
+  &.professionnel {
+    color: #474233;
+  }
+  &.contact {
+    color: #E09F6E;
+  }
+  &.reverse {}
+}
+
+.index_professionnel {
+  display: flex;
+  justify-content: space-between;
+  ul {width: 100%; text-align:right;}
 }
 
 @media screen and (min-width: 636px) {
