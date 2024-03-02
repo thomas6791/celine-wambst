@@ -1,25 +1,39 @@
 .interventions {
-    border: solid 3px red;
     position: relative;
     width: 100%;
+    max-width: 1200px;
+    margin: auto;
     h2 {
-        //position: absolute;
+        position: absolute;
+        z-index: -1;
         width: 100%;
-        font-size: 5rem;
+        top: -14rem;
+        font-size: 10rem;
         text-align: center;
         color: #D4A968; font-family: "Inter";
         font-weight: bold;
     }
 }
-.prestations_list { display: flex; width: 100%; height: 100%;padding: 0;}
+.prestations_list { 
+    display: flex; width: 100%; height: 100%;padding: 0;
+    min-height: 270px;
+    overflow-x: auto;
+    justify-content: center;
+}
 .prestation_item {
-    border: solid 1px green;
+    text-decoration: none;
+    color: black;
     width: 100%;
+    max-width: 180px;
+    min-width: 180px;
     display: flex;
     list-style: none;
-    li{ width: 100%;}
-    img {border: solid 2px red;}
+    margin-right: 5px;
+    img {width: 100%; height: 180px; object-fit: contain;}
     h3 {font-family: 'Manjari', sans-serif; text-align: center;}
+    &:hover {
+        border-bottom: solid 1px;
+    }
 }
 .prestation_img{
     width: 170px;

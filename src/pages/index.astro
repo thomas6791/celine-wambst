@@ -6,49 +6,60 @@ import '../styles/interventions.css';
 const title = "Celine Wambst | Insectisation";
 ---
 <BaseLayout title={title}>
-  <h2>My awesome blog subtitle</h2>
   <Greeting client:load messages={["Hej", "Hallo", "Hola", "Habari"]} />
-<FeedbackForm />
-<div class="interventions inside">
+<div class="interventions">
   <h2>Interventions</h2>
   <ul class="prestations_list">
     <a href="" class="prestation_item">
       <li>
         <img src="/images/guepe.png">
-        <h3>Nid de guêpes</h3>
+        <div class="titre_list">
+          <h3>Nid de guêpes</h3>
+        </div>
       </li>
     </a>
     <a href="" class="prestation_item">
       <li>
         <img src="/images/frelon.png">
-        <h3>Nid de frelons</h3>
+        <div class="titre_list">
+          <h3>Nid de frelons</h3>
+        </div>
       </li>
     </a>
     <a href="" class="prestation_item">
       <li>
         <img src="/images/rat.png">
-        <h3>Rats & rongeurs</h3>
+        <div class="titre_list">
+          <h3>Rats & rongeurs</h3>
+        </div>
       </li>
     </a>
     <a href="" class="prestation_item">
       <li>
         <img src="/images/punaise-lit.png">
-        <h3>Punaises de lit</h3>
+        <div class="titre_list">
+          <h3>Punaises de lit</h3>
+        </div>
       </li>
     </a>
     <a href="" class="prestation_item">
       <li>
         <img src="/images/cafard.png">
-        <h3>Cafard</h3>
+        <div class="titre_list">
+          <h3>Cafard</h3>
+        </div>
       </li>
     </a>
     <a href="" class="prestation_item">
       <li>
         <img src="/images/guepe.png">
-        <h3>2 Cafards</h3>
+        <div class="titre_list">
+          <h3>2 Cafards</h3>
+        </div>
       </li>
     </a>
   </ul>
 </div>
+<FeedbackForm />
 
 </BaseLayout>
