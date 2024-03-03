@@ -25,6 +25,21 @@ html {
     margin: auto;
     border: solid 1px red;
   }
+  .flex {
+    display: flex;
+  }
+  .professionnels {
+    position: relative;
+    h2 {position: absolute; top:0;
+      justify-content: space-between;
+    }
+    ul {width: 100%;text-align: right;list-style: none;
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      align-self: end;
+    }
+  }
 
   /* nav styles */
 
@@ -90,11 +105,7 @@ html.dark {
   &.reverse {}
 }
 
-.index_professionnel {
-  display: flex;
-  justify-content: space-between;
-  ul {width: 100%; text-align:right;}
-}
+
 
 @media screen and (min-width: 636px) {
   .nav-links {
