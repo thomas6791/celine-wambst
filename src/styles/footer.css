@@ -1,0 +1,12 @@
+footer {
+    background-color: #474233;
+    height: 100px;
+    .inside {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    a {
+        text-decoration: none;
+        color:black;
+    }
+}

@@ -23,7 +23,7 @@ html {
   .inside {
     max-width: 1024px;
     margin: auto;
-    border: solid 1px red;
+    //border: solid 1px red;
   }
   .flex {
     display: flex;

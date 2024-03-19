@@ -1,15 +1,10 @@
 ---
-import Social from './Social.astro';
+import '../styles/footer.css';
 ---
-<style>
-    footer {
-      display: flex;
-      gap: 1rem;
-      margin-top: 2rem;
-    }
-  </style>
 <footer>
-    <Social platform="twitter" username="astrodotbuild" />
-    <Social platform="github" username="withastro" />
-    <Social platform="youtube" username="astrodotbuild" />
+    <div class="inside">
+      <a href="/mentions">Mentions légales</a>
+      <a href="/confidentialite">Politique de confidentialité</a>
+      <a href="cookies">Gestion des cookies</a>
+    </div>
 </footer>
