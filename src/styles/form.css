@@ -1,0 +1,36 @@
+.form_contact {
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    margin-bottom: 2em;
+    .flex {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        input {width:80%;}
+    }
+    input,select,textarea,option {
+        line-height: 2em;
+        height: 2em;
+        margin-bottom: 10px;
+        font-size: 1em;
+    }
+    textarea{
+        height: auto;
+    }
+    .submit {
+        background-color: #E0C06E;
+        display: inline-block;
+        width: fit-content;
+        font-size: 1em;
+        padding: 8px 80px;
+        border-radius: 2px;
+        border: none;
+        cursor: pointer;
+    }
+    .content-btn {
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+}

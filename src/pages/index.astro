@@ -4,11 +4,14 @@ import Greeting from '../components/Greeting';
 import FeedbackForm from '../components/FeedbackForm.astro';
 import Interventions from '../components/Interventions.astro';
 import '../styles/interventions.css';
+import '../styles/form.css';
 const title = "La petite bête qui pique | Insectisation";
 ---
 <BaseLayout title={title}>
 <div class="inside">
-    <img src="images/la-petite-bete-qui-pique-logo.svg" width="200px">
+    <h1>
+      <img src="images/la-petite-bete-qui-pique-logo.svg" width="200px" alt="la petite bête qui pique">
+    </h1>
 </div>
 <div class="test-interventions inside">
   <h2>Interventions</h2>
@@ -65,7 +68,29 @@ const title = "La petite bête qui pique | Insectisation";
 </div>
 <div class="inside">
   <h2 class="index_titre contact">Contact</h2>
+  <form action="https://getform.io/f/wdLL6pdj" method="POST" class="form_contact">
+    <div class="flex">
+      <input type="text" name="nom" placeholder="Nom">
+      <input type="text" name="prenom" placeholder="Prénom">
+    </div>
+    <div class="flex">
+      <input type="email" name="email" placeholder="Email">
+      <input type="email" name="email" placholder="Tel">
+    </div>
+    <select name="type">
+      <option value="">Je suis un particulier/une entreprise ?</option>
+      <option value="particulier">Particulier</option>
+      <option value="professionnel">Professionnel</option>
+    </select>
+    <div class="flex">
+      <input type="text" name="cp" placeholder="Code Postal">
+      <input type="text" name="ville" placeholder="Ville">
+    </div>
+    <textarea name="message" rows="5" cols="33"></textarea>
+    <div class="content-btn">
+      <button type="submit" class="submit">Envoyer</button>
+    </div>
+  </form>
 </div>
-<FeedbackForm />
 
 </BaseLayout>
