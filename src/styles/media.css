@@ -31,6 +31,7 @@
   
   /* max-width 640px, mobile-only styles, use when QAing mobile issues */
   @media only screen and (max-width: 40em) {
+    h2 {color: red;}
     .interventions {
         max-width: 100%;
         padding-left: 10px;
@@ -93,6 +94,17 @@
   
   /* iPhone Portrait */
   @media screen and (max-device-width: 480px) and (orientation:portrait) {
+    form {
+      width: 100%;
+      padding: 10px;
+    }
+    .test-interventions {
+      h2 {
+        font-size: 3.2em;
+        display: block;
+        position: initial;
+      }
+    }
   }
   
   /* iPhone Landscape */
