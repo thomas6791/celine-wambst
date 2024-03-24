@@ -105,6 +105,9 @@ html.dark {
   }
   &.reverse {}
 }
+.intro-home {
+  display: flex;
+}
 
 
 
