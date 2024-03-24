@@ -76,3 +76,16 @@
         }
     }
 }
+@media only screen and (max-width: 40em) {
+    .intro-home {
+        display: flex;
+        flex-direction: column;
+        h1 {margin: auto;}
+        p {padding: 10px;}
+    }
+    .test-interventions {
+        h2 {font-size: 3.5em;
+            position: initial;
+        }
+    }
+}
