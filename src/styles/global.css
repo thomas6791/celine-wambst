@@ -101,7 +101,7 @@ html.dark {
     color: #474233;
   }
   &.contact {
-    color: #E09F6E;
+    color: #DC1270;
   }
   &.reverse {}
 }
@@ -131,11 +131,5 @@ html.dark {
     width: 100% !important;
     padding: 10px !important;
   }
-  .test-interventions {
-    h2 {
-      font-size: 4.5em !important;
-      display: block !important;
-      position: initial !important;
-    }
-  }
+  
 }

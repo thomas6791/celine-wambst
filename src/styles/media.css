@@ -49,6 +49,14 @@
         h2 {display: none;}
         img {width: 100%;}
     }
+    .test-interventions {
+      h2 {
+        font-size: 2rem;
+        display: block;
+        position: initial;
+        text-align: center;
+      }
+    }
   }
   
   /* Medium screens - TABLET */
@@ -100,9 +108,10 @@
     }
     .test-interventions {
       h2 {
-        font-size: 3.2em;
+        font-size: 2rem;
         display: block;
         position: initial;
+        text-align: center;
       }
     }
   }
