@@ -3,7 +3,9 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import Greeting from '../components/Greeting';
 import FeedbackForm from '../components/FeedbackForm.astro';
 import Interventions from '../components/Interventions.astro';
-import '../styles/interventions.css';
+import Interventions2 from '../components/Interventions2.astro';
+import Professionnels from '../components/Professionnels.astro';
+import '../styles/interventions.scss';
 import '../styles/form.css';
 import '../styles/media.scss';
 const title = "La petite bête qui pique | Insectisation";
@@ -11,6 +13,13 @@ const title = "La petite bête qui pique | Insectisation";
 <BaseLayout title={title}>
 <div class="inside intro-home">
 </div>
+<div class="inside">
+  <Interventions2 />
+</div>
+<div class="inside">
+  <Professionnels />
+</div>
+
 <div class="test-interventions inside">
   <h2>Interventions</h2>
   <ul>
