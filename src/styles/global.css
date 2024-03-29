@@ -107,6 +107,7 @@ html.dark {
 }
 .intro-home {
   display: flex;
+  margin-top: 2em;
 }
 
 
