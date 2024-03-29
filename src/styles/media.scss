@@ -57,6 +57,11 @@
         text-align: center;
       }
     }
+    .nav-big {
+      nav ul {display: none;}
+      ul {display: none;}
+      nav {justify-content: space-between;}
+    }
   }
   
   /* Medium screens - TABLET */
