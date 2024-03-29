@@ -1,11 +1,10 @@
 .nav-big {
-    //background-color: #474233;
-    nav {border: solid 1px red;}
+
     .nav-flex {
         display: flex;
         align-items: center;
         nav, ul {display: flex; width: 100%;}
-        ul {border: solid 1px blue;
+        ul {
             list-style: none;
             padding: 0;
             margin: 0;
