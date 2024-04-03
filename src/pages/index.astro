@@ -8,11 +8,12 @@ import Professionnels from '../components/Professionnels.astro';
 import '../styles/interventions.scss';
 import '../styles/form.css';
 import '../styles/media.scss';
-const title = "La petite bête qui pique | Insectisation";
+const title = "La petite bête qui pique | entreprise de désinsectisation des nuisibles";
 ---
 <BaseLayout title={title}>
-<div class="inside intro-home">
-  La petite bête qui pique, entreprise de traîtement des nuisibles pour les particuliers et les professionnels.
+<div class="inside">
+  <br>
+  La petite bête qui pique, <strong>entreprise de traîtement des nuisibles</strong> pour les particuliers et les professionnels. Nous couvrons un large ensemble d’interventions. Que ce soit la <strong>destruction de nid de guêpes ou de frelons</strong>, la <strong>dératisation</strong> de votre maison ou de vos locaux, la <strong>désinsectisation de cafards ou de punaises de lits</strong>, notre entreprise peut répondre avec efficacité à vos différents problèmes.
 </div>
 <div class="inside">
   <Interventions2 />
@@ -21,59 +22,7 @@ const title = "La petite bête qui pique | Insectisation";
   <Professionnels />
 </div>
 
-<div class="test-interventions inside">
-  <h2>Interventions</h2>
-  <ul>
-    <li>
-      <a href="">
-        <img src="/images/guepe.png">
-        <h3>Nid de guêpes</h3>
-      </a>
-    </li>
-    <li>
-      <a href="">
-        <img src="/images/frelon.png">
-        <h3>Nid de frelons</h3>
-      </a>
-    </li>
-    <li>
-      <a href="">
-        <img src="/images/rat.png">
-        <h3>Rats & rongeurs</h3>
-      </a>
-    </li>
-    <li>
-      <a href="">
-        <img src="/images/punaise-lit.png">
-        <h3>Punaises de lit</h3>
-      </a>
-    </li>
-    <li>
-      <a href="">
-        <img src="/images/cafard.png">
-        <h3>Cafard</h3>
-      </a>
-    </li>
-    <li>
-      <a href="">
-        <img src="/images/guepe.png">
-        <h3>2 Cafards</h3>
-      </a>
-    </li>
-  </ul>
-</div>
 
-<div class="inside flex professionnels">
-  <h2 class="index_titre professionnel">Professionnels</h2>
-  <ul>
-    <li>Restaurants</li>
-    <li>Boulangeries</li>
-    <li>Hôtels</li>
-    <li>Entreprises</li>
-    <li>Usines</li>
-  </ul>
-  <img src="/images/hotel.jpeg" alt="">
-</div>
 <div class="inside">
   <h2 class="index_titre contact">Contact</h2>
   <form action="https://getform.io/f/wdLL6pdj" method="POST" class="form_contact">
