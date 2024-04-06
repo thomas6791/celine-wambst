@@ -157,6 +157,17 @@
         flex-wrap: wrap-reverse;
       }
     }
+    .nav-big {
+      nav ul {display: none;}
+      ul {display: none;}
+      nav {justify-content: space-between; padding: 5px;}
+      nav .big-nav-links {
+        display: none;
+      }
+      .burger-menu {
+        display: block !important;
+      }
+    }
   }
   
   /* iPhone Landscape */
