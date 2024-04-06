@@ -115,14 +115,14 @@ html.dark {
   display: flex;
   .img_chapo {
     width: 25%;
-    border: solid 1px;
+    //border: solid 1px;
     display: flex;
     justify-content: center;
     align-items: center;
     img {width: 250px; height: auto;}
   }
   .text_chapo {
-    border: solid 1px;
+    //border: solid 1px;
     width: 75%;
     padding: 1em;
     h1 {margin: 0;padding: 0;}
