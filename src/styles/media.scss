@@ -90,8 +90,9 @@
     }
     .chapo {
       flex-direction: column;
-      &.img_chapo {width: 100%;}
-      &.text_chapo {width: 100%;}
+      width: 100%;
+      &.img_chapo {width: 100% !important;}
+      &.text_chapo {width: 100% !important;}
     }
   }
   
@@ -144,8 +145,9 @@
     }
     .chapo {
       flex-direction: column;
-      &.img_chapo {width: 100%;}
-      &.text_chapo {width: 100%;}
+      width: 100%;
+      &.img_chapo {width: 100% !important;}
+      &.text_chapo {width: 100% !important;}
     }
     h2 {display: flex; flex-wrap: wrap; color: green;}
     form {
