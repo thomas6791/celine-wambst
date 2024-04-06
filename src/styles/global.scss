@@ -114,6 +114,7 @@ html.dark {
   padding-bottom: 2em;
   display: flex;
   justify-content: space-between;
+  color:#474233;
   .img_chapo {
     width: 25%;
     //border: solid 1px;
@@ -128,6 +129,22 @@ html.dark {
     padding: 1em;
     h1 {margin: 0;padding: 0; font-family: "Inter"; font-size: 2.5em; line-height:normal; margin-bottom: 0.5em;}
     p {margin: 0;}
+  }
+  .btn_call {
+    display: flex;
+    margin-top: 1em;
+    justify-content: flex-start;
+    .link_call {
+      text-decoration: none;
+      text-decoration: none;
+      color: black;
+      padding: 5px 20px;
+      border-radius: 3px;
+      background-color: #D4A968;
+      &:hover {
+       color: white;
+      }
+    }
   }
 }
 
