@@ -20,6 +20,9 @@ html {
     margin: 1rem 0;
     font-size: 2.5rem;
   }
+  h2 {
+    line-break:anywhere;
+  }
   .inside {
     max-width: 1024px;
     margin: auto;
