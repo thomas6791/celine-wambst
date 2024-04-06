@@ -1,0 +1,11 @@
+.zones_interventions {
+    h2 {}
+    ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        li {border: solid 1px; padding: 2px 8px; border-radius: 2px; color: rgb(159, 149, 149); margin-right: 3px; margin-bottom: 3px;}
+    }
+}

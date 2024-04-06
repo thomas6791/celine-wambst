@@ -84,6 +84,11 @@
         display: block !important;
       }
     }
+    .chapo {
+      flex-direction: column;
+      .img_chapo {width: 100%;}
+      .text_chapo {width: 100%;}
+    }
   }
   
   /* Medium screens - TABLET */
