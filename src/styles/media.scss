@@ -142,6 +142,11 @@
       padding-left: 10px;
       padding-right: 10px;
     }
+    .chapo {
+      flex-direction: column;
+      .img_chapo {width: 100%;}
+      .text_chapo {width: 100%;}
+    }
     h2 {display: flex; flex-wrap: wrap; color: green;}
     form {
       width: 100%;
