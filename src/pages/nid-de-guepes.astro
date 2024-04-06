@@ -1,0 +1,46 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Header from '../components/Header.astro';
+import Zones from '../components/Zones.astro';
+import '../styles/form.css';
+import '../styles/media.scss';
+const title = "Destruction de nid de guêpes dans la Manche(50) | La petite bête qui pique";
+---
+<BaseLayout title={title}>
+    <div class="inside chapo">
+        <div class="img_chapo">
+            <img src="images/guepe.png" alt="entreprise profesionnelle dans l'extermination et la destruction des nids de guêpes" width="">
+        </div>
+        <div class="text_chapo">
+            <h1>Destruction de nid de guêpes</h1>
+            <p>Vous êtes confronté à un <b>nid de guêpes</b> dans votre maison ou votre jardin?<br>
+                Afin d'assurer la <strong>destruction totale de votre nid de guêpes</strong>, il est recommandé de faire appel à un professionnel qualifié.<br>
+                Notre entreprise, spécialiste dans l'<strong>extermination des nids de guêpes</strong> interviendra rapidement à votre domicile.
+            </p>
+            <div class="btn_call">
+                <a href="tel:0669515950" class="link_call">Nous appeler</a>
+            </div>
+        </div>
+    </div>
+    <div class="inside">
+        <p>Notre entreprise intervient sur tout le territoire de la Manche</p>
+        <p>exterminateur nid de guêpes - 720/mois, extermination guepes 880/mois</p>
+    </div>
+    <div class="inside">
+        <h2>Questions fréquentes</h2>
+        <ul>
+            <li>Que faire si vous voyez un nid de guêpes chez vous ?</li>
+            <li>Où les guêpes peuvent construire leur nid ?</li>
+            <li>Quel est le prix pour détruire un nid de guêpes ?</li>
+        </ul>
+    </div>
+    <div class="inside">
+        <h2>Dernières interventions</h2>
+        <p>Liste des interventions</p>
+    </div>
+    <div class="inside">
+        <Zones />
+    </div>
+    <div class="inside">
+        <h2>Nos autres services d'intervention</h2>
+    </div>
